@@ -14925,3 +14925,526 @@ html[data-theme="night"] body.pyatigorsk-page .ptg-detail-grid span {
     min-height: 430px;
   }
 }
+
+/* Final native city pages evolution */
+body.city-evo-page .cty-page {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 12% 5%, rgba(90, 169, 255, 0.18), transparent 30%),
+    radial-gradient(circle at 86% 18%, rgba(146, 209, 255, 0.14), transparent 28%),
+    linear-gradient(180deg, #eaf7ff 0%, #f8fcff 48%, #ffffff 100%);
+  color: var(--kx-unified-ink, #08243a);
+}
+
+body.city-evo-page .cty-page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(31, 120, 209, 0.032) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(31, 120, 209, 0.026) 1px, transparent 1px);
+  background-size: 76px 76px;
+  mask-image: linear-gradient(180deg, transparent 0, #000 18%, #000 78%, transparent 100%);
+}
+
+body.city-evo-page .cty-page > * {
+  position: relative;
+  z-index: 1;
+}
+
+body.city-evo-page .cty-hero {
+  position: relative;
+  min-height: 740px;
+  display: grid;
+  align-items: end;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+body.city-evo-page .cty-hero-image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.035);
+  filter: saturate(1.02) contrast(1.04) brightness(0.78);
+  animation: ptgHeroFloat 18s ease-in-out infinite alternate;
+}
+
+body.city-evo-page .cty-hero-overlay,
+body.city-evo-page .cty-hero-depth {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+body.city-evo-page .cty-hero-overlay {
+  z-index: 1;
+  background:
+    radial-gradient(circle at 22% 30%, rgba(90, 169, 255, 0.24), transparent 30%),
+    linear-gradient(90deg, rgba(5, 28, 47, 0.82), rgba(5, 28, 47, 0.28) 58%, rgba(5, 28, 47, 0.66)),
+    linear-gradient(180deg, rgba(5, 28, 47, 0.08), rgba(5, 28, 47, 0.45) 70%, #eaf7ff 100%);
+}
+
+body.city-evo-page .cty-hero-depth {
+  z-index: 2;
+  background:
+    linear-gradient(115deg, transparent 0 34%, rgba(255, 255, 255, 0.12) 35%, transparent 48%),
+    radial-gradient(circle at 72% 22%, rgba(255, 255, 255, 0.18), transparent 24%);
+  opacity: 0.7;
+}
+
+body.city-evo-page .cty-hero-inner {
+  z-index: 3;
+  width: min(1180px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 164px 0 112px;
+}
+
+body.city-evo-page .cty-hero .breadcrumbs {
+  width: max-content;
+  max-width: 100%;
+  margin-bottom: 28px;
+  color: rgba(238, 248, 255, 0.82);
+}
+
+body.city-evo-page .cty-kicker,
+body.city-evo-page .cty-section-head span {
+  width: max-content;
+  max-width: 100%;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin: 0;
+  padding: 10px 15px;
+  border-radius: 999px;
+  color: #dff8ff;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(90, 169, 255, 0.16), transparent 34%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.14), rgba(90, 169, 255, 0.08));
+  border: 1px solid rgba(146, 209, 255, 0.26);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.16);
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+body.city-evo-page .cty-kicker::before,
+body.city-evo-page .cty-section-head span::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: #5aa9ff;
+  box-shadow:
+    0 0 0 4px rgba(90, 169, 255, 0.13),
+    0 0 18px rgba(90, 169, 255, 0.26);
+}
+
+body.city-evo-page .cty-hero h1 {
+  max-width: 980px;
+  margin: 24px 0 0;
+  color: #ffffff;
+  font-family: Unbounded, Manrope, sans-serif;
+  font-size: clamp(46px, 7vw, 102px);
+  line-height: 0.98;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-shadow: 0 34px 90px rgba(0, 0, 0, 0.46);
+}
+
+body.city-evo-page .cty-hero-lead {
+  max-width: 720px;
+  margin: 26px 0 0;
+  color: rgba(238, 248, 255, 0.88);
+  font-size: clamp(19px, 2.2vw, 30px);
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+body.city-evo-page .cty-scroll-indicator {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  bottom: 34px;
+  width: 28px;
+  height: 48px;
+  transform: translateX(-50%);
+  border: 1px solid rgba(238, 248, 255, 0.62);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+}
+
+body.city-evo-page .cty-scroll-indicator span {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  width: 4px;
+  height: 8px;
+  border-radius: 999px;
+  background: #dff8ff;
+  transform: translateX(-50%);
+  animation: ptgScrollDot 1.8s ease-in-out infinite;
+}
+
+body.city-evo-page .cty-section {
+  width: min(1180px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 94px 0;
+}
+
+body.city-evo-page .cty-section-head {
+  display: grid;
+  gap: 18px;
+  margin-bottom: 34px;
+}
+
+body.city-evo-page .cty-section-head h2 {
+  max-width: 820px;
+  margin: 0;
+  color: var(--kx-unified-ink, #08243a);
+  font-family: Unbounded, Manrope, sans-serif;
+  font-size: clamp(32px, 4.8vw, 64px);
+  line-height: 1.05;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+body.city-evo-page .cty-intro-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+body.city-evo-page .cty-intro-grid article,
+body.city-evo-page .cty-attraction-card,
+body.city-evo-page .cty-story-item,
+body.city-evo-page .cty-detail-grid article {
+  background:
+    radial-gradient(circle at 16% 0%, rgba(90, 169, 255, 0.13), transparent 30%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.78), rgba(226, 245, 255, 0.52));
+  border: 1px solid rgba(255, 255, 255, 0.66);
+  box-shadow:
+    0 28px 86px rgba(11, 54, 96, 0.13),
+    inset 0 1px 0 rgba(255, 255, 255, 0.74);
+  backdrop-filter: blur(24px) saturate(145%);
+  -webkit-backdrop-filter: blur(24px) saturate(145%);
+}
+
+body.city-evo-page .cty-intro-grid article {
+  min-height: 210px;
+  padding: clamp(26px, 3vw, 42px);
+  border-radius: 30px;
+}
+
+body.city-evo-page .cty-intro-grid p,
+body.city-evo-page .cty-card-copy p,
+body.city-evo-page .cty-story-item p,
+body.city-evo-page .cty-detail-grid p {
+  margin: 0;
+  color: rgba(8, 36, 58, 0.72);
+  font-size: 17px;
+  line-height: 1.72;
+  font-weight: 600;
+}
+
+body.city-evo-page .cty-attraction-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+body.city-evo-page .cty-attraction-card {
+  overflow: hidden;
+  border-radius: 30px;
+  transition:
+    transform 320ms cubic-bezier(.2,.8,.2,1),
+    box-shadow 320ms ease,
+    border-color 320ms ease;
+}
+
+body.city-evo-page .cty-attraction-card:nth-child(5) {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+}
+
+body.city-evo-page .cty-attraction-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(90, 169, 255, 0.34);
+  box-shadow:
+    0 34px 94px rgba(11, 54, 96, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.76);
+}
+
+body.city-evo-page .cty-card-media {
+  position: relative;
+  min-height: 310px;
+  overflow: hidden;
+  background: #0d3554;
+}
+
+body.city-evo-page .cty-card-media img,
+body.city-evo-page .cty-story-item img,
+body.city-evo-page .cty-final img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body.city-evo-page .cty-card-media img {
+  display: block;
+  transform: translate3d(var(--cty-x, 0), var(--cty-y, 0), 0) scale(1.04);
+  transition: transform 520ms cubic-bezier(.2,.8,.2,1), filter 520ms ease;
+}
+
+body.city-evo-page .cty-attraction-card:hover .cty-card-media img {
+  transform: translate3d(var(--cty-x, 0), var(--cty-y, 0), 0) scale(1.1);
+  filter: saturate(1.05) contrast(1.03);
+}
+
+body.city-evo-page .cty-card-copy {
+  min-height: 250px;
+  padding: 28px;
+  display: grid;
+  align-content: start;
+  gap: 14px;
+}
+
+body.city-evo-page .cty-card-copy span,
+body.city-evo-page .cty-detail-grid span {
+  width: max-content;
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: #0b4f82;
+  background: rgba(255, 255, 255, 0.56);
+  border: 1px solid rgba(90, 169, 255, 0.18);
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 900;
+}
+
+body.city-evo-page .cty-card-copy h3,
+body.city-evo-page .cty-story-item h3 {
+  margin: 0;
+  color: var(--kx-unified-ink, #08243a);
+  font-family: Unbounded, Manrope, sans-serif;
+  font-size: clamp(24px, 2.7vw, 36px);
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+
+body.city-evo-page .cty-story-list {
+  display: grid;
+  gap: 22px;
+}
+
+body.city-evo-page .cty-story-item {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.92fr) 1fr;
+  align-items: stretch;
+  overflow: hidden;
+  border-radius: 32px;
+}
+
+body.city-evo-page .cty-story-item:nth-child(even) {
+  grid-template-columns: 1fr minmax(280px, 0.92fr);
+}
+
+body.city-evo-page .cty-story-item:nth-child(even) img {
+  order: 2;
+}
+
+body.city-evo-page .cty-story-item img {
+  min-height: 340px;
+  transform: translate3d(var(--cty-x, 0), var(--cty-y, 0), 0) scale(1.035);
+  transition: transform 520ms cubic-bezier(.2,.8,.2,1);
+}
+
+body.city-evo-page .cty-story-item:hover img {
+  transform: translate3d(var(--cty-x, 0), var(--cty-y, 0), 0) scale(1.08);
+}
+
+body.city-evo-page .cty-story-item div {
+  padding: clamp(28px, 4vw, 54px);
+  display: grid;
+  align-content: center;
+  gap: 18px;
+}
+
+body.city-evo-page .cty-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+body.city-evo-page .cty-detail-grid article {
+  min-height: 210px;
+  padding: 26px;
+  border-radius: 26px;
+  display: grid;
+  align-content: start;
+  gap: 18px;
+}
+
+body.city-evo-page .cty-final {
+  position: relative;
+  min-height: 520px;
+  margin-top: 76px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+body.city-evo-page .cty-final img {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  filter: saturate(1.02) contrast(1.04) brightness(0.78);
+}
+
+body.city-evo-page .cty-final-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    radial-gradient(circle at 50% 35%, rgba(90, 169, 255, 0.20), transparent 34%),
+    linear-gradient(180deg, rgba(5, 28, 47, 0.36), rgba(5, 28, 47, 0.78));
+}
+
+body.city-evo-page .cty-final p {
+  position: relative;
+  z-index: 2;
+  width: min(900px, calc(100% - 48px));
+  margin: 0;
+  color: #ffffff;
+  font-family: Unbounded, Manrope, sans-serif;
+  font-size: clamp(34px, 5.5vw, 72px);
+  line-height: 1.08;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 0;
+  text-shadow: 0 32px 80px rgba(0, 0, 0, 0.48);
+}
+
+body.city-evo-page .cty-reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 700ms ease, transform 700ms cubic-bezier(.2,.8,.2,1);
+}
+
+body.city-evo-page .cty-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+html[data-theme="night"] body.city-evo-page .cty-page {
+  background:
+    radial-gradient(circle at 14% 8%, rgba(90, 169, 255, 0.14), transparent 30%),
+    radial-gradient(circle at 84% 16%, rgba(146, 209, 255, 0.10), transparent 28%),
+    linear-gradient(180deg, #061524 0%, #09243a 48%, #06101c 100%);
+  color: #f8fcff;
+}
+
+html[data-theme="night"] body.city-evo-page .cty-section-head h2,
+html[data-theme="night"] body.city-evo-page .cty-card-copy h3,
+html[data-theme="night"] body.city-evo-page .cty-story-item h3 {
+  color: #f8fcff;
+}
+
+html[data-theme="night"] body.city-evo-page .cty-intro-grid article,
+html[data-theme="night"] body.city-evo-page .cty-attraction-card,
+html[data-theme="night"] body.city-evo-page .cty-story-item,
+html[data-theme="night"] body.city-evo-page .cty-detail-grid article {
+  background:
+    radial-gradient(circle at 16% 0%, rgba(90, 169, 255, 0.12), transparent 30%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.105), rgba(255, 255, 255, 0.034)),
+    rgba(8, 36, 58, 0.50);
+  border-color: rgba(146, 209, 255, 0.18);
+  box-shadow:
+    0 28px 86px rgba(0, 9, 21, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+html[data-theme="night"] body.city-evo-page .cty-intro-grid p,
+html[data-theme="night"] body.city-evo-page .cty-card-copy p,
+html[data-theme="night"] body.city-evo-page .cty-story-item p,
+html[data-theme="night"] body.city-evo-page .cty-detail-grid p {
+  color: rgba(238, 247, 255, 0.76);
+}
+
+html[data-theme="night"] body.city-evo-page .cty-card-copy span,
+html[data-theme="night"] body.city-evo-page .cty-detail-grid span {
+  color: #dff8ff;
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(146, 209, 255, 0.22);
+}
+
+@media (max-width: 980px) {
+  body.city-evo-page .cty-hero {
+    min-height: 660px;
+  }
+
+  body.city-evo-page .cty-hero-inner {
+    padding: 140px 0 98px;
+  }
+
+  body.city-evo-page .cty-intro-grid,
+  body.city-evo-page .cty-attraction-grid,
+  body.city-evo-page .cty-detail-grid,
+  body.city-evo-page .cty-attraction-card:nth-child(5),
+  body.city-evo-page .cty-story-item,
+  body.city-evo-page .cty-story-item:nth-child(even) {
+    grid-template-columns: 1fr;
+  }
+
+  body.city-evo-page .cty-story-item:nth-child(even) img {
+    order: 0;
+  }
+
+  body.city-evo-page .cty-attraction-card:nth-child(5) {
+    display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  body.city-evo-page .cty-hero {
+    min-height: 600px;
+  }
+
+  body.city-evo-page .cty-hero-inner,
+  body.city-evo-page .cty-section,
+  body.city-evo-page .cty-final p {
+    width: min(100% - 28px, 1180px);
+  }
+
+  body.city-evo-page .cty-section {
+    padding: 66px 0;
+  }
+
+  body.city-evo-page .cty-card-media,
+  body.city-evo-page .cty-story-item img {
+    min-height: 250px;
+  }
+
+  body.city-evo-page .cty-card-copy,
+  body.city-evo-page .cty-story-item div,
+  body.city-evo-page .cty-detail-grid article,
+  body.city-evo-page .cty-intro-grid article {
+    padding: 22px;
+  }
+
+  body.city-evo-page .cty-final {
+    min-height: 420px;
+  }
+}
