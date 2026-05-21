@@ -1,0 +1,126 @@
+{
+  "note": "Реальные фото добавлены на весь сайт через Wikimedia Commons Special:FilePath. Перед коммерческой публикацией нужно проверить лицензию каждого файла и добавить атрибуцию.",
+  "images": {
+    "images/caucasus-hero-real.jpg": "images/mt-elbrus-in-russia-48ad1b9.jpg",
+    "images/caucasus-view.jpg": "images/views-from-mount-mashuk-october-2023-7-e03ca74.jpg",
+    "images/pyatigorsk-mashuk.jpg": "images/views-from-mount-mashuk-october-2023-7-e03ca74.jpg",
+    "images/pyatigorsk-proval.jpg": "images/proval-lake-in-pyatigorsk-october-2023-8-661327c.jpg",
+    "images/pyatigorsk-tsvetnik.jpg": "images/views-from-mount-mashuk-october-2023-7-e03ca74.jpg",
+    "images/pyatigorsk-aeolian-harp.jpg": "images/aeolian-harp-pyatigorsk-e6dbfa4.jpg",
+    "images/elbrus-mountain.jpg": "images/mt-elbrus-in-russia-48ad1b9.jpg",
+    "images/elbrus-azau-glade.jpg": "images/038-69ded13.jpg",
+    "images/elbrus-cheget.jpg": "images/mount-cheget-15873b9.jpg",
+    "images/dombay-mussa-achitara.jpg": "images/mount-cheget-15873b9.jpg",
+    "images/dombay-cableway.jpg": "images/mount-cheget-15873b9.jpg",
+    "images/dombay-alibek-waterfall.jpg": "images/mount-cheget-15873b9.jpg",
+    "images/dombay-teberda-reserve.jpg": "images/mount-cheget-15873b9.jpg",
+    "images/arkhyz-sofia-lakes.jpg": "images/arkhyz-lake-d673dc5.jpg",
+    "images/arkhyz-sofia-waterfalls.jpg": "images/sofia-waterfalls-arkhyz-db2815a.jpg",
+    "images/arkhyz-alan-temples.jpg": "images/arkhyz-lake-d673dc5.jpg",
+    "images/arkhyz-taulu-glade.jpg": "images/arkhyz-valley-45940bb.jpg",
+    "images/kislovodsk-park.jpg": "images/narzan-gallery-kislovodsk-344e7fc.jpg",
+    "images/kislovodsk-narzan-gallery.jpg": "images/narzan-gallery-kislovodsk-344e7fc.jpg",
+    "images/kislovodsk-colonnade.jpg": "images/narzan-gallery-kislovodsk-344e7fc.jpg",
+    "images/essentuki-semasko.jpg": "images/essentuki-mudbath-yessentuki-russia-73f8107.jpg",
+    "images/essentuki-source-17-gallery.jpg": "images/essentuki-mudbath-yessentuki-russia-73f8107.jpg",
+    "images/essentuki-resort-park.jpg": "images/essentuki-mudbath-yessentuki-russia-73f8107.jpg"
+  },
+  "galleries": {
+    "pyatigorsk.html": [
+      {
+        "title": "Гора Машук",
+        "url": "images/views-from-mount-mashuk-october-2023-7-e03ca74.jpg"
+      },
+      {
+        "title": "Озеро Провал",
+        "url": "images/proval-lake-in-pyatigorsk-october-2023-8-661327c.jpg"
+      },
+      {
+        "title": "Лермонтовская галерея",
+        "url": "images/views-from-mount-mashuk-october-2023-7-e03ca74.jpg"
+      },
+      {
+        "title": "Эолова арфа",
+        "url": "images/aeolian-harp-pyatigorsk-e6dbfa4.jpg"
+      }
+    ],
+    "elbrus.html": [
+      {
+        "title": "Эльбрус",
+        "url": "images/mt-elbrus-in-russia-48ad1b9.jpg"
+      },
+      {
+        "title": "Канатная дорога",
+        "url": "images/038-69ded13.jpg"
+      },
+      {
+        "title": "Чегет",
+        "url": "images/mount-cheget-15873b9.jpg"
+      }
+    ],
+    "dombay.html": [
+      {
+        "title": "Мусса-Ачитара",
+        "url": "images/mount-cheget-15873b9.jpg"
+      },
+      {
+        "title": "Канатная дорога Домбай",
+        "url": "images/mount-cheget-15873b9.jpg"
+      },
+      {
+        "title": "Алибекский водопад",
+        "url": "images/mount-cheget-15873b9.jpg"
+      },
+      {
+        "title": "Тебердинский заповедник",
+        "url": "images/mount-cheget-15873b9.jpg"
+      }
+    ],
+    "arkhyz.html": [
+      {
+        "title": "Архыз",
+        "url": "images/arkhyz-lake-d673dc5.jpg"
+      },
+      {
+        "title": "Софийские водопады",
+        "url": "images/sofia-waterfalls-arkhyz-db2815a.jpg"
+      },
+      {
+        "title": "Нижне-Архызское городище",
+        "url": "images/arkhyz-lake-d673dc5.jpg"
+      },
+      {
+        "title": "Долина Архыза",
+        "url": "images/arkhyz-valley-45940bb.jpg"
+      }
+    ],
+    "kislovodsk.html": [
+      {
+        "title": "Кисловодский национальный парк",
+        "url": "images/narzan-gallery-kislovodsk-344e7fc.jpg"
+      },
+      {
+        "title": "Нарзанная галерея",
+        "url": "images/narzan-gallery-kislovodsk-344e7fc.jpg"
+      },
+      {
+        "title": "Колоннада",
+        "url": "images/narzan-gallery-kislovodsk-344e7fc.jpg"
+      }
+    ],
+    "essentuki.html": [
+      {
+        "title": "Грязелечебница Семашко",
+        "url": "images/essentuki-mudbath-yessentuki-russia-73f8107.jpg"
+      },
+      {
+        "title": "Галерея источника №17",
+        "url": "images/essentuki-mudbath-yessentuki-russia-73f8107.jpg"
+      },
+      {
+        "title": "Курортный парк",
+        "url": "images/essentuki-mudbath-yessentuki-russia-73f8107.jpg"
+      }
+    ]
+  }
+}

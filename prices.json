@@ -1,0 +1,51 @@
+{
+  "lermontov_house": {
+    "title": "Домик Лермонтова",
+    "label": "от 200 ₽",
+    "details": "Домик Лермонтова: 200 ₽ без экскурсии, 300 ₽ с экскурсией. Весь комплекс музея: 400 ₽ / 600 ₽.",
+    "source": "https://lermontovdomik.ru/ceny-i-lgoty/",
+    "type": "official_static"
+  },
+  "lermontov_complex": {
+    "title": "Музей-заповедник М. Ю. Лермонтова",
+    "label": "комплекс от 400 ₽",
+    "details": "Весь комплекс музея: 400 ₽ без экскурсии, 600 ₽ с экскурсионным обслуживанием.",
+    "source": "https://lermontovdomik.ru/ceny-i-lgoty/",
+    "type": "official_static"
+  },
+  "proval_lake": {
+    "title": "Озеро Провал",
+    "label": "бесплатно",
+    "details": "Вход в Провал бесплатный.",
+    "source": "https://www.pyatigorsk.online/tosee/ozero_proval/",
+    "type": "open_static"
+  },
+  "narzan_gallery": {
+    "title": "Нарзанная галерея",
+    "label": "бесплатно",
+    "details": "Три вида нарзана можно попробовать бесплатно.",
+    "source": "https://kislovodsk-kurort.org/o-gorode-kurorte/putevoditel/dostoprimechatelnosti1547716151/narzannaia-galereia",
+    "type": "official_static"
+  },
+  "kislovodsk_colonnade": {
+    "title": "Колоннада Кисловодска",
+    "label": "бесплатно",
+    "details": "Открытый архитектурный объект, посещение бесплатное.",
+    "source": "https://www.putevka.com/kavminvody/kislovodsk/sight/kolonnada-kislovodska",
+    "type": "open_static"
+  },
+  "essentuki_resort_park": {
+    "title": "Курортный парк Ессентуки",
+    "label": "бесплатно",
+    "details": "Вход в Курортный парк Ессентуков бесплатный.",
+    "source": "https://www.putevka.com/kavminvody/essentuky/sight/kurortnyj-park-",
+    "type": "open_static"
+  },
+  "essentuki_mud_baths": {
+    "title": "Грязелечебница им. Н. А. Семашко",
+    "label": "услуги от 400 ₽",
+    "details": "Прейскурант с 1 января 2026: консультация врача 900 ₽; отдельные процедуры от 400 ₽.",
+    "source": "https://www.essbgl.ru/prices",
+    "type": "official_static"
+  }
+}

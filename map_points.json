@@ -1,0 +1,122 @@
+{
+  "pyatigorsk.html": {
+    "title": "Гора Машук",
+    "where": "Пятигорск, Ставропольский край",
+    "lat": 44.05,
+    "lon": 43.0817,
+    "note": "Маршрут до района горы Машук",
+    "route_url": "https://yandex.ru/maps/?rtext=~44.050000%2C43.081700&rtt=auto",
+    "map_url": "https://yandex.ru/map-widget/v1/?ll=43.081700%2C44.050000&z=13&pt=43.081700%2C44.050000%2Cpm2rdm",
+    "qr": "qr/pyatigorsk-route.png"
+  },
+  "essentuki.html": {
+    "title": "Грязелечебница им. Н. А. Семашко",
+    "where": "Ессентуки, Ставропольский край",
+    "lat": 44.0438,
+    "lon": 42.8599,
+    "note": "Маршрут к историческому зданию грязелечебницы",
+    "route_url": "https://yandex.ru/maps/?rtext=~44.043800%2C42.859900&rtt=auto",
+    "map_url": "https://yandex.ru/map-widget/v1/?ll=42.859900%2C44.043800&z=13&pt=42.859900%2C44.043800%2Cpm2rdm",
+    "qr": "qr/essentuki-route.png"
+  },
+  "kislovodsk.html": {
+    "title": "Нарзанная галерея",
+    "where": "Кисловодск, Ставропольский край",
+    "lat": 43.9057,
+    "lon": 42.7168,
+    "note": "Маршрут к Нарзанной галерее",
+    "route_url": "https://yandex.ru/maps/?rtext=~43.905700%2C42.716800&rtt=auto",
+    "map_url": "https://yandex.ru/map-widget/v1/?ll=42.716800%2C43.905700&z=13&pt=42.716800%2C43.905700%2Cpm2rdm",
+    "qr": "qr/kislovodsk-route.png"
+  },
+  "dombay.html": {
+    "title": "Мусса-Ачитара",
+    "where": "Домбай, Карачаево-Черкесия",
+    "lat": 43.2725,
+    "lon": 41.6058,
+    "note": "Маршрут к району канатных дорог Домбая",
+    "route_url": "https://yandex.ru/maps/?rtext=~43.272500%2C41.605800&rtt=auto",
+    "map_url": "https://yandex.ru/map-widget/v1/?ll=41.605800%2C43.272500&z=13&pt=41.605800%2C43.272500%2Cpm2rdm",
+    "qr": "qr/dombay-route.png"
+  },
+  "arkhyz.html": {
+    "title": "Поляна Таулу",
+    "where": "Архыз, Карачаево-Черкесия",
+    "lat": 43.5454,
+    "lon": 41.1976,
+    "note": "Маршрут к туристической поляне Таулу",
+    "route_url": "https://yandex.ru/maps/?rtext=~43.545400%2C41.197600&rtt=auto",
+    "map_url": "https://yandex.ru/map-widget/v1/?ll=41.197600%2C43.545400&z=13&pt=41.197600%2C43.545400%2Cpm2rdm",
+    "qr": "qr/arkhyz-route.png"
+  },
+  "elbrus.html": {
+    "title": "Поляна Азау",
+    "where": "Приэльбрусье, Кабардино-Балкария",
+    "lat": 43.2656,
+    "lon": 42.4784,
+    "note": "Маршрут к поляне Азау",
+    "route_url": "https://yandex.ru/maps/?rtext=~43.265600%2C42.478400&rtt=auto",
+    "map_url": "https://yandex.ru/map-widget/v1/?ll=42.478400%2C43.265600&z=13&pt=42.478400%2C43.265600%2Cpm2rdm",
+    "qr": "qr/elbrus-route.png"
+  },
+  "chegem-waterfalls.html": {
+    "title": "Чегемские водопады",
+    "where": "Чегемское ущелье, Кабардино-Балкария",
+    "lat": 43.4177,
+    "lon": 43.2166,
+    "note": "Маршрут к Чегемским водопадам",
+    "route_url": "https://yandex.ru/maps/?rtext=~43.417700%2C43.216600&rtt=auto",
+    "map_url": "https://yandex.ru/map-widget/v1/?ll=43.216600%2C43.417700&z=13&pt=43.216600%2C43.417700%2Cpm2rdm",
+    "qr": "qr/chegem-waterfalls-route.png"
+  },
+  "grozny.html": {
+    "title": "Мечеть «Сердце Чечни»",
+    "where": "Грозный, Чеченская Республика",
+    "lat": 43.3176,
+    "lon": 45.6975,
+    "note": "Маршрут к центру Грозного",
+    "route_url": "https://yandex.ru/maps/?rtext=~43.317600%2C45.697500&rtt=auto",
+    "map_url": "https://yandex.ru/map-widget/v1/?ll=45.697500%2C43.317600&z=13&pt=45.697500%2C43.317600%2Cpm2rdm",
+    "qr": "qr/grozny-route.png"
+  },
+  "beshtau.html": {
+    "title": "Гора Бештау",
+    "where": "район Пятигорска, Ставропольский край",
+    "lat": 44.0989,
+    "lon": 43.0225,
+    "note": "Маршрут к району горы Бештау",
+    "route_url": "https://yandex.ru/maps/?rtext=~44.098900%2C43.022500&rtt=auto",
+    "map_url": "https://yandex.ru/map-widget/v1/?ll=43.022500%2C44.098900&z=13&pt=43.022500%2C44.098900%2Cpm2rdm",
+    "qr": "qr/beshtau-route.png"
+  },
+  "blue-lakes.html": {
+    "title": "Голубые озёра",
+    "where": "Черекский район, Кабардино-Балкария",
+    "lat": 43.2307,
+    "lon": 43.5387,
+    "note": "Маршрут к Нижнему Голубому озеру",
+    "route_url": "https://yandex.ru/maps/?rtext=~43.230700%2C43.538700&rtt=auto",
+    "map_url": "https://yandex.ru/map-widget/v1/?ll=43.538700%2C43.230700&z=13&pt=43.538700%2C43.230700%2Cpm2rdm",
+    "qr": "qr/blue-lakes-route.png"
+  },
+  "derbent.html": {
+    "title": "Крепость Нарын-Кала",
+    "where": "Дербент, Республика Дагестан",
+    "lat": 42.0526,
+    "lon": 48.2747,
+    "note": "Маршрут к крепости Нарын-Кала",
+    "route_url": "https://yandex.ru/maps/?rtext=~42.052600%2C48.274700&rtt=auto",
+    "map_url": "https://yandex.ru/map-widget/v1/?ll=48.274700%2C42.052600&z=13&pt=48.274700%2C42.052600%2Cpm2rdm",
+    "qr": "qr/derbent-route.png"
+  },
+  "sulak-canyon.html": {
+    "title": "Сулакский каньон",
+    "where": "Республика Дагестан",
+    "lat": 43.0175,
+    "lon": 46.8298,
+    "note": "Маршрут к смотровым площадкам каньона",
+    "route_url": "https://yandex.ru/maps/?rtext=~43.017500%2C46.829800&rtt=auto",
+    "map_url": "https://yandex.ru/map-widget/v1/?ll=46.829800%2C43.017500&z=13&pt=46.829800%2C43.017500%2Cpm2rdm",
+    "qr": "qr/sulak-canyon-route.png"
+  }
+}

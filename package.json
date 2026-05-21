@@ -1,0 +1,9 @@
+{
+  "name": "kavkaz-travel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static travel website for KAVKAZ TRAVEL.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

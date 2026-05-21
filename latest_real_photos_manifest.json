@@ -1,0 +1,35 @@
+{
+  "galleries": {
+    "chegem-waterfalls.html": [
+      "images/sofia-waterfalls-arkhyz-db2815a.jpg",
+      "images/sofia-waterfalls-arkhyz-db2815a.jpg",
+      "images/sofia-waterfalls-arkhyz-db2815a.jpg"
+    ],
+    "derbent.html": [
+      "images/naryn-kala-walls-248c142.jpg",
+      "images/naryn-kala-walls-248c142.jpg",
+      "images/naryn-kala-walls-248c142.jpg"
+    ],
+    "sulak-canyon.html": [
+      "images/sulak-canyon-viewpoint-5f15c30.jpg",
+      "images/sulak-canyon-river-56be7c6.jpg",
+      "images/sulak-canyon-viewpoint-5f15c30.jpg"
+    ],
+    "grozny.html": [
+      "images/naryn-kala-walls-248c142.jpg",
+      "images/naryn-kala-walls-248c142.jpg",
+      "images/naryn-kala-walls-248c142.jpg"
+    ],
+    "blue-lakes.html": [
+      "images/blue-lake-kabardino-balkaria-344999e.jpg",
+      "images/mt-elbrus-in-russia-48ad1b9.jpg",
+      "images/blue-lake-kabardino-balkaria-344999e.jpg"
+    ],
+    "beshtau.html": [
+      "images/mount-beshtau-1f76c7f.jpg",
+      "images/mount-beshtau-1f76c7f.jpg",
+      "images/mount-beshtau-1f76c7f.jpg"
+    ]
+  },
+  "note": "Добавлены реальные фото с разных ракурсов и уменьшен блок карты/QR"
+}
