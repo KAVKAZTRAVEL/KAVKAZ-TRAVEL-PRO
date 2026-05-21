@@ -14190,3 +14190,205 @@ html[data-theme="night"] .faq-page-section .premium-faq-head span {
     0 12px 30px rgba(0, 9, 21, 0.24),
     inset 0 1px 0 rgba(255, 255, 255, 0.12) !important;
 }
+
+/* Final blue accent pass */
+:root {
+  --gold: #5aa9ff;
+  --rose: #5aa9ff;
+  --kx-unified-gold: #5aa9ff;
+}
+
+body.reference-home,
+body.reference-page {
+  background:
+    radial-gradient(circle at 16% 7%, rgba(90, 169, 255, 0.18), transparent 28%),
+    radial-gradient(circle at 84% 14%, rgba(146, 209, 255, 0.16), transparent 25%),
+    radial-gradient(circle at 48% 82%, rgba(19, 168, 149, 0.10), transparent 32%),
+    linear-gradient(180deg, #eaf7ff 0%, #f7fbff 54%, #ffffff 100%) !important;
+}
+
+.reference-links a:hover,
+body.reference-home .reference-links a:hover,
+body.reference-page .reference-links a:hover {
+  color: #d8f1ff !important;
+}
+
+body.reference-home .reference-hero::before,
+.reference-page .hero::before,
+.reference-page .inner-hero::before {
+  background:
+    radial-gradient(circle at 18% 28%, rgba(90, 169, 255, 0.24), transparent 28%),
+    radial-gradient(circle at 80% 24%, rgba(146, 209, 255, 0.20), transparent 27%),
+    linear-gradient(90deg, rgba(5, 31, 52, 0.72), rgba(5, 31, 52, 0.16) 64%),
+    linear-gradient(180deg, rgba(5, 31, 52, 0.08), rgba(234, 247, 255, 0.90) 96%) !important;
+}
+
+.reference-page .glass-panel,
+.reference-page .subscribe,
+.reference-page .footer-clean-inner,
+.reference-page .route-info-card,
+.reference-page .route-map,
+.reference-page .place-card,
+.reference-page .real-gallery-card,
+.reference-page .visit-more-card,
+.reference-page .home-copy-card,
+.promo-carousel-shell,
+.cities-directory .section-head,
+.cities-directory-card,
+.cities-directory-card:nth-child(even),
+.cities-directory-card:nth-of-type(even) {
+  background:
+    radial-gradient(circle at 16% 0%, rgba(90, 169, 255, 0.16), transparent 30%),
+    radial-gradient(circle at 88% 16%, rgba(146, 209, 255, 0.12), transparent 26%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.78), rgba(226, 245, 255, 0.52)) !important;
+}
+
+.btn-primary,
+.reference-page .btn-primary,
+.reference-page .number,
+.reference-page .price-badge-label,
+.promo-carousel-card-copy span,
+.number {
+  color: #05283a !important;
+  background: linear-gradient(135deg, #e4f5ff, #5aa9ff) !important;
+  border-color: rgba(146, 209, 255, 0.42) !important;
+  box-shadow:
+    0 18px 48px rgba(90, 169, 255, 0.20),
+    inset 0 1px 0 rgba(255, 255, 255, 0.70) !important;
+}
+
+.reference-section-kicker::before,
+.reference-kicker::before,
+.promo-carousel-head span::before,
+.cities-directory-copy > span::before,
+.paragliding-spots-head span::before,
+body.pyatigorsk-page .kx-pyro-section-head span::before,
+.premium-faq-head span::before,
+.faq-page-section .premium-faq-head span::before {
+  background: #5aa9ff !important;
+  box-shadow: 0 0 0 4px rgba(90, 169, 255, 0.13), 0 0 18px rgba(90, 169, 255, 0.26) !important;
+}
+
+.promo-carousel-card,
+.promo-carousel-card.no-image::before {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(90, 169, 255, 0.24), transparent 34%),
+    linear-gradient(135deg, #08243a, #176da7) !important;
+}
+
+.paragliding-merge-card,
+.cities-inline-paragliding .paragliding-merge-card {
+  box-shadow:
+    0 34px 96px rgba(8, 36, 59, 0.20),
+    0 0 0 1px rgba(90, 169, 255, 0.16) !important;
+}
+
+body.pyatigorsk-page {
+  background:
+    radial-gradient(circle at 16% 8%, rgba(90, 169, 255, 0.18), transparent 27%),
+    radial-gradient(circle at 82% 14%, rgba(146, 209, 255, 0.16), transparent 30%),
+    radial-gradient(circle at 54% 78%, rgba(19, 168, 149, 0.10), transparent 34%),
+    linear-gradient(180deg, #061524 0%, #09243a 44%, #06101c 100%) !important;
+}
+
+body.pyatigorsk-page .pyatigorsk-luxury-page {
+  background:
+    linear-gradient(180deg, rgba(6, 21, 36, 0.06), rgba(6, 21, 36, 0.64) 28%, rgba(6, 21, 36, 0.94) 100%),
+    radial-gradient(ellipse at 22% 16%, rgba(90, 169, 255, 0.16), transparent 36%),
+    radial-gradient(ellipse at 78% 28%, rgba(146, 209, 255, 0.14), transparent 35%),
+    linear-gradient(115deg, rgba(255, 255, 255, 0.025) 0 1px, transparent 1px 140px) !important;
+}
+
+body.pyatigorsk-page .kx-pyro-hero-shade {
+  background:
+    radial-gradient(circle at 20% 26%, rgba(90, 169, 255, 0.24), transparent 26%),
+    linear-gradient(90deg, rgba(3, 5, 9, 0.88), rgba(3, 5, 9, 0.42) 46%, rgba(3, 5, 9, 0.78)),
+    linear-gradient(180deg, rgba(3, 5, 9, 0.18), rgba(3, 5, 9, 0.78) 76%, #05070b) !important;
+}
+
+body.pyatigorsk-page .kx-pyro-particles span {
+  background: rgba(146, 209, 255, 0.74) !important;
+  box-shadow: 0 0 26px rgba(90, 169, 255, 0.58) !important;
+}
+
+body.pyatigorsk-page .kx-pyro-location,
+body.pyatigorsk-page .kx-pyro-section-head span,
+body.pyatigorsk-page .kx-pyro-time-card,
+body.pyatigorsk-page .kx-pyro-info-grid article,
+body.pyatigorsk-page .kx-pyro-mood-layout,
+body.pyatigorsk-page .kx-pyro-final-card,
+body.pyatigorsk-page .kx-pyro-place-story,
+body.pyatigorsk-page .kx-pyro-mood-options button {
+  border-color: rgba(146, 209, 255, 0.24) !important;
+}
+
+body.pyatigorsk-page .kx-pyro-place-story,
+body.pyatigorsk-page .kx-pyro-time-card,
+body.pyatigorsk-page .kx-pyro-info-grid article,
+body.pyatigorsk-page .kx-pyro-mood-layout,
+body.pyatigorsk-page .kx-pyro-final-card {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.105), rgba(255, 255, 255, 0.034)),
+    radial-gradient(circle at 0 0, rgba(90, 169, 255, 0.12), transparent 34%),
+    rgba(8, 36, 58, 0.50) !important;
+}
+
+body.pyatigorsk-page .kx-pyro-timeline::-webkit-scrollbar-thumb {
+  background: rgba(146, 209, 255, 0.36) !important;
+}
+
+body.pyatigorsk-page .kx-pyro-location,
+body.pyatigorsk-page .kx-pyro-section-head span,
+body.pyatigorsk-page .kx-pyro-time-card span,
+body.pyatigorsk-page .kx-pyro-weather-note,
+body.pyatigorsk-page .kx-pyro-mood-copy span,
+body.pyatigorsk-page .kx-pyro-info-grid span,
+body.pyatigorsk-page .kx-pyro-location .kx-pyro-icon,
+body.pyatigorsk-page .kx-pyro-time-card .kx-pyro-icon,
+body.pyatigorsk-page .kx-pyro-mood-options .kx-pyro-icon,
+body.pyatigorsk-page .kx-pyro-info-grid .kx-pyro-icon,
+body.pyatigorsk-page .site-rating button {
+  color: #92d1ff !important;
+}
+
+body.pyatigorsk-page .kx-pyro-mood-copy a,
+body.pyatigorsk-page .kx-pyro-final-card .btn-primary {
+  background: linear-gradient(135deg, #e4f5ff, #5aa9ff) !important;
+  color: #05283a !important;
+  box-shadow: 0 18px 46px rgba(90, 169, 255, 0.22) !important;
+}
+
+html[data-theme="night"] body.reference-home,
+html[data-theme="night"] body.reference-page {
+  background:
+    radial-gradient(circle at 18% 8%, rgba(90, 169, 255, 0.13), transparent 28%),
+    radial-gradient(circle at 82% 16%, rgba(146, 209, 255, 0.12), transparent 26%),
+    linear-gradient(180deg, #061524 0%, #09243a 48%, #06101c 100%) !important;
+}
+
+html[data-theme="night"] .reference-section-kicker,
+html[data-theme="night"] .reference-kicker,
+html[data-theme="night"] .breadcrumbs,
+html[data-theme="night"] .route-mini-label,
+html[data-theme="night"] .weather-label,
+html[data-theme="night"] .place-mini-weather,
+html[data-theme="night"] .price-badge,
+html[data-theme="night"] .price-badge-label,
+html[data-theme="night"] .hero-meta,
+html[data-theme="night"] .city-weather-badge,
+html[data-theme="night"] .promo-carousel-head span,
+html[data-theme="night"] .cities-directory-copy > span,
+html[data-theme="night"] .cities-directory-meta small,
+html[data-theme="night"] .paragliding-spots-head span,
+html[data-theme="night"] .paragliding-spots-badges span,
+html[data-theme="night"] .paragliding-merge-card span,
+html[data-theme="night"] body.pyatigorsk-page .kx-pyro-location,
+html[data-theme="night"] body.pyatigorsk-page .kx-pyro-section-head span,
+html[data-theme="night"] body.pyatigorsk-page .kx-pyro-mood-copy span,
+html[data-theme="night"] body.pyatigorsk-page .kx-pyro-info-grid span,
+html[data-theme="night"] .premium-faq-head span,
+html[data-theme="night"] .faq-page-section .premium-faq-head span {
+  background:
+    radial-gradient(circle at 12% 0%, rgba(90, 169, 255, 0.14), transparent 34%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.13), rgba(90, 169, 255, 0.08)) !important;
+}
