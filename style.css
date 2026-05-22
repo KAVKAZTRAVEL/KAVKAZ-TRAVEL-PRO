@@ -15527,3 +15527,96 @@ html[data-theme="night"] body.city-evo-page .cty-detail-grid article {
     inset 0 1px 0 rgba(255, 255, 255, 0.13),
     0 0 0 1px rgba(90, 169, 255, 0.12) !important;
 }
+
+/* Final Pyatigorsk Apple-style place card copy */
+body.pyatigorsk-page .ptg-attraction-card {
+  background:
+    radial-gradient(circle at 12% 0%, rgba(146, 209, 255, 0.26), transparent 34%),
+    linear-gradient(135deg, rgba(238, 248, 255, 0.72), rgba(192, 229, 252, 0.38)) !important;
+  border-color: rgba(146, 209, 255, 0.38) !important;
+}
+
+body.pyatigorsk-page .ptg-card-copy {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 250px;
+  margin: clamp(16px, 2vw, 24px);
+  padding: clamp(28px, 4vw, 52px) !important;
+  border-radius: 30px;
+  color: #08243a;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(255, 255, 255, 0.86), transparent 30%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.70), rgba(211, 239, 255, 0.46));
+  border: 1px solid rgba(146, 209, 255, 0.42);
+  box-shadow:
+    0 24px 70px rgba(11, 54, 96, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.86),
+    0 0 0 1px rgba(255, 255, 255, 0.32);
+  backdrop-filter: blur(26px) saturate(155%);
+  -webkit-backdrop-filter: blur(26px) saturate(155%);
+}
+
+body.pyatigorsk-page .ptg-card-copy::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  pointer-events: none;
+  border-radius: inherit;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.46), transparent 42%),
+    radial-gradient(circle at 92% 18%, rgba(90, 169, 255, 0.16), transparent 32%);
+}
+
+body.pyatigorsk-page .ptg-card-copy > * {
+  position: relative;
+  z-index: 1;
+}
+
+body.pyatigorsk-page .ptg-card-copy span {
+  display: none !important;
+}
+
+body.pyatigorsk-page .ptg-card-copy h3 {
+  margin: 0 0 16px;
+  color: #073b63 !important;
+  font-size: clamp(24px, 2.7vw, 38px);
+  line-height: 1.08;
+}
+
+body.pyatigorsk-page .ptg-card-copy p {
+  max-width: 680px;
+  color: rgba(8, 36, 58, 0.72) !important;
+  font-size: clamp(16px, 1.45vw, 19px);
+  line-height: 1.78;
+}
+
+body.pyatigorsk-page .ptg-attraction-card:hover .ptg-card-copy {
+  border-color: rgba(90, 169, 255, 0.56);
+  box-shadow:
+    0 30px 86px rgba(11, 54, 96, 0.16),
+    inset 0 1px 0 rgba(255, 255, 255, 0.90),
+    0 0 0 1px rgba(146, 209, 255, 0.28),
+    0 0 34px rgba(90, 169, 255, 0.12);
+}
+
+html[data-theme="night"] body.pyatigorsk-page .ptg-card-copy {
+  color: #f8fcff;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(146, 209, 255, 0.18), transparent 34%),
+    linear-gradient(145deg, rgba(10, 36, 58, 0.74), rgba(8, 24, 40, 0.54));
+  border-color: rgba(146, 209, 255, 0.28);
+  box-shadow:
+    0 24px 70px rgba(0, 9, 21, 0.30),
+    inset 0 1px 0 rgba(255, 255, 255, 0.13),
+    0 0 0 1px rgba(90, 169, 255, 0.10);
+}
+
+html[data-theme="night"] body.pyatigorsk-page .ptg-card-copy h3 {
+  color: #dff8ff !important;
+}
+
+html[data-theme="night"] body.pyatigorsk-page .ptg-card-copy p {
+  color: rgba(238, 247, 255, 0.78) !important;
+}
