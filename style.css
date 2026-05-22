@@ -15448,3 +15448,82 @@ html[data-theme="night"] body.city-evo-page .cty-detail-grid span {
     min-height: 420px;
   }
 }
+
+/* Final city pages visible frame and label unification */
+body.pyatigorsk-page .ptg-kicker,
+body.pyatigorsk-page .ptg-section-head span,
+body.city-evo-page .cty-kicker,
+body.city-evo-page .cty-section-head span {
+  color: #e9f8ff !important;
+  background:
+    radial-gradient(circle at 18% 0%, rgba(146, 209, 255, 0.30), transparent 36%),
+    linear-gradient(135deg, rgba(10, 54, 86, 0.54), rgba(17, 114, 168, 0.28)) !important;
+  border: 1px solid rgba(146, 209, 255, 0.48) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.24),
+    0 16px 36px rgba(20, 112, 178, 0.16),
+    0 0 0 1px rgba(90, 169, 255, 0.08) !important;
+}
+
+body.pyatigorsk-page .ptg-kicker::before,
+body.pyatigorsk-page .ptg-section-head span::before,
+body.city-evo-page .cty-kicker::before,
+body.city-evo-page .cty-section-head span::before {
+  background: #92d1ff !important;
+  box-shadow:
+    0 0 0 4px rgba(90, 169, 255, 0.16),
+    0 0 20px rgba(90, 169, 255, 0.42) !important;
+}
+
+body.pyatigorsk-page .ptg-intro-grid article,
+body.pyatigorsk-page .ptg-attraction-card,
+body.pyatigorsk-page .ptg-story-item,
+body.pyatigorsk-page .ptg-detail-grid article,
+body.city-evo-page .cty-intro-grid article,
+body.city-evo-page .cty-attraction-card,
+body.city-evo-page .cty-story-item,
+body.city-evo-page .cty-detail-grid article {
+  border-color: rgba(90, 169, 255, 0.26) !important;
+  box-shadow:
+    0 28px 86px rgba(11, 54, 96, 0.13),
+    inset 0 1px 0 rgba(255, 255, 255, 0.76),
+    0 0 0 1px rgba(146, 209, 255, 0.12) !important;
+}
+
+body.pyatigorsk-page .ptg-attraction-card:hover,
+body.city-evo-page .cty-attraction-card:hover {
+  border-color: rgba(90, 169, 255, 0.52) !important;
+  box-shadow:
+    0 34px 94px rgba(11, 54, 96, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.82),
+    0 0 0 1px rgba(146, 209, 255, 0.24),
+    0 0 34px rgba(90, 169, 255, 0.14) !important;
+}
+
+body.pyatigorsk-page .ptg-card-copy span,
+body.pyatigorsk-page .ptg-detail-grid span,
+body.city-evo-page .cty-card-copy span,
+body.city-evo-page .cty-detail-grid span {
+  color: #07436d !important;
+  background:
+    linear-gradient(135deg, rgba(228, 245, 255, 0.96), rgba(146, 209, 255, 0.72)) !important;
+  border: 1px solid rgba(90, 169, 255, 0.34) !important;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.82),
+    0 12px 26px rgba(90, 169, 255, 0.14) !important;
+}
+
+html[data-theme="night"] body.pyatigorsk-page .ptg-intro-grid article,
+html[data-theme="night"] body.pyatigorsk-page .ptg-attraction-card,
+html[data-theme="night"] body.pyatigorsk-page .ptg-story-item,
+html[data-theme="night"] body.pyatigorsk-page .ptg-detail-grid article,
+html[data-theme="night"] body.city-evo-page .cty-intro-grid article,
+html[data-theme="night"] body.city-evo-page .cty-attraction-card,
+html[data-theme="night"] body.city-evo-page .cty-story-item,
+html[data-theme="night"] body.city-evo-page .cty-detail-grid article {
+  border-color: rgba(146, 209, 255, 0.24) !important;
+  box-shadow:
+    0 28px 86px rgba(0, 9, 21, 0.30),
+    inset 0 1px 0 rgba(255, 255, 255, 0.13),
+    0 0 0 1px rgba(90, 169, 255, 0.12) !important;
+}
