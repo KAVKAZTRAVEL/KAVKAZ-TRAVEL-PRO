@@ -15620,3 +15620,215 @@ html[data-theme="night"] body.pyatigorsk-page .ptg-card-copy h3 {
 html[data-theme="night"] body.pyatigorsk-page .ptg-card-copy p {
   color: rgba(238, 247, 255, 0.78) !important;
 }
+
+/* Final Pyatigorsk attraction photo-card alignment */
+body.pyatigorsk-page .ptg-attraction-grid {
+  align-items: stretch;
+}
+
+body.pyatigorsk-page .ptg-attraction-card {
+  display: grid !important;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+}
+
+body.pyatigorsk-page .ptg-attraction-card:not(:nth-child(5)) .ptg-card-media {
+  width: 100%;
+  min-height: clamp(320px, 30vw, 390px);
+  aspect-ratio: 16 / 10;
+}
+
+body.pyatigorsk-page .ptg-attraction-card .ptg-card-media img {
+  object-position: center;
+}
+
+body.pyatigorsk-page .ptg-attraction-card:not(:nth-child(5)) .ptg-card-copy {
+  min-height: clamp(285px, 26vw, 340px);
+  height: auto;
+}
+
+body.pyatigorsk-page .ptg-attraction-card:nth-child(5) {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: auto;
+  align-items: stretch;
+}
+
+body.pyatigorsk-page .ptg-attraction-card:nth-child(5) .ptg-card-media {
+  min-height: clamp(390px, 34vw, 470px);
+  aspect-ratio: auto;
+}
+
+body.pyatigorsk-page .ptg-attraction-card:nth-child(5) .ptg-card-copy {
+  min-height: auto;
+}
+
+@media (max-width: 980px) {
+  body.pyatigorsk-page .ptg-attraction-card:nth-child(5) {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+
+  body.pyatigorsk-page .ptg-attraction-card:nth-child(5) .ptg-card-media {
+    min-height: clamp(320px, 58vw, 420px);
+    aspect-ratio: 16 / 10;
+  }
+}
+
+@media (max-width: 640px) {
+  body.pyatigorsk-page .ptg-attraction-card:not(:nth-child(5)) .ptg-card-media,
+  body.pyatigorsk-page .ptg-attraction-card:nth-child(5) .ptg-card-media {
+    min-height: 260px;
+  }
+
+  body.pyatigorsk-page .ptg-attraction-card:not(:nth-child(5)) .ptg-card-copy {
+    min-height: auto;
+  }
+}
+
+/* Final all city attraction Apple-card alignment */
+body.city-evo-page .cty-attraction-grid {
+  align-items: stretch;
+}
+
+body.city-evo-page .cty-attraction-card {
+  display: grid !important;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(146, 209, 255, 0.26), transparent 34%),
+    linear-gradient(135deg, rgba(238, 248, 255, 0.72), rgba(192, 229, 252, 0.38)) !important;
+  border-color: rgba(146, 209, 255, 0.38) !important;
+}
+
+body.city-evo-page .cty-attraction-card:not(:nth-child(5)) .cty-card-media {
+  width: 100%;
+  min-height: clamp(320px, 30vw, 390px);
+  aspect-ratio: 16 / 10;
+}
+
+body.city-evo-page .cty-attraction-card .cty-card-media img {
+  object-position: center;
+}
+
+body.city-evo-page .cty-card-copy {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: clamp(285px, 26vw, 340px);
+  margin: clamp(16px, 2vw, 24px);
+  padding: clamp(28px, 4vw, 52px) !important;
+  border-radius: 30px;
+  color: #08243a;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(255, 255, 255, 0.86), transparent 30%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.70), rgba(211, 239, 255, 0.46));
+  border: 1px solid rgba(146, 209, 255, 0.42);
+  box-shadow:
+    0 24px 70px rgba(11, 54, 96, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.86),
+    0 0 0 1px rgba(255, 255, 255, 0.32);
+  backdrop-filter: blur(26px) saturate(155%);
+  -webkit-backdrop-filter: blur(26px) saturate(155%);
+}
+
+body.city-evo-page .cty-card-copy::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  pointer-events: none;
+  border-radius: inherit;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.46), transparent 42%),
+    radial-gradient(circle at 92% 18%, rgba(90, 169, 255, 0.16), transparent 32%);
+}
+
+body.city-evo-page .cty-card-copy > * {
+  position: relative;
+  z-index: 1;
+}
+
+body.city-evo-page .cty-card-copy span {
+  display: none !important;
+}
+
+body.city-evo-page .cty-card-copy h3 {
+  margin: 0 0 16px;
+  color: #073b63 !important;
+  font-size: clamp(24px, 2.7vw, 38px);
+  line-height: 1.08;
+}
+
+body.city-evo-page .cty-card-copy p {
+  max-width: 680px;
+  color: rgba(8, 36, 58, 0.72) !important;
+  font-size: clamp(16px, 1.45vw, 19px);
+  line-height: 1.78;
+}
+
+body.city-evo-page .cty-attraction-card:hover .cty-card-copy {
+  border-color: rgba(90, 169, 255, 0.56);
+  box-shadow:
+    0 30px 86px rgba(11, 54, 96, 0.16),
+    inset 0 1px 0 rgba(255, 255, 255, 0.90),
+    0 0 0 1px rgba(146, 209, 255, 0.28),
+    0 0 34px rgba(90, 169, 255, 0.12);
+}
+
+body.city-evo-page .cty-attraction-card:nth-child(5) {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: auto;
+  align-items: stretch;
+}
+
+body.city-evo-page .cty-attraction-card:nth-child(5) .cty-card-media {
+  min-height: clamp(390px, 34vw, 470px);
+  aspect-ratio: auto;
+}
+
+body.city-evo-page .cty-attraction-card:nth-child(5) .cty-card-copy {
+  min-height: auto;
+}
+
+html[data-theme="night"] body.city-evo-page .cty-card-copy {
+  color: #f8fcff;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(146, 209, 255, 0.18), transparent 34%),
+    linear-gradient(145deg, rgba(10, 36, 58, 0.74), rgba(8, 24, 40, 0.54));
+  border-color: rgba(146, 209, 255, 0.28);
+  box-shadow:
+    0 24px 70px rgba(0, 9, 21, 0.30),
+    inset 0 1px 0 rgba(255, 255, 255, 0.13),
+    0 0 0 1px rgba(90, 169, 255, 0.10);
+}
+
+html[data-theme="night"] body.city-evo-page .cty-card-copy h3 {
+  color: #dff8ff !important;
+}
+
+html[data-theme="night"] body.city-evo-page .cty-card-copy p {
+  color: rgba(238, 247, 255, 0.78) !important;
+}
+
+@media (max-width: 980px) {
+  body.city-evo-page .cty-attraction-card:nth-child(5) {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+
+  body.city-evo-page .cty-attraction-card:nth-child(5) .cty-card-media {
+    min-height: clamp(320px, 58vw, 420px);
+    aspect-ratio: 16 / 10;
+  }
+}
+
+@media (max-width: 640px) {
+  body.city-evo-page .cty-attraction-card:not(:nth-child(5)) .cty-card-media,
+  body.city-evo-page .cty-attraction-card:nth-child(5) .cty-card-media {
+    min-height: 260px;
+  }
+
+  body.city-evo-page .cty-card-copy {
+    min-height: auto;
+  }
+}
