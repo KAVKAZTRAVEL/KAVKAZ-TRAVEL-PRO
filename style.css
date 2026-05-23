@@ -15832,3 +15832,101 @@ html[data-theme="night"] body.city-evo-page .cty-card-copy p {
     min-height: auto;
   }
 }
+
+/* Final city place map meta */
+body.pyatigorsk-page .place-map-meta,
+body.city-evo-page .place-map-meta {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 10px;
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(90, 169, 255, 0.22);
+}
+
+body.pyatigorsk-page .place-map-meta p,
+body.city-evo-page .place-map-meta p {
+  display: grid;
+  grid-template-columns: minmax(72px, max-content) 1fr;
+  gap: 12px;
+  align-items: start;
+  margin: 0;
+  color: rgba(8, 36, 58, 0.70) !important;
+  font-size: 14px !important;
+  line-height: 1.45 !important;
+  font-weight: 700;
+}
+
+body.pyatigorsk-page .place-map-meta span,
+body.city-evo-page .place-map-meta span {
+  display: inline-flex !important;
+  width: max-content;
+  padding: 7px 10px;
+  border-radius: 999px;
+  color: #07547c !important;
+  background: rgba(228, 245, 255, 0.72) !important;
+  border: 1px solid rgba(90, 169, 255, 0.24) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.78);
+  font-size: 11px;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+body.pyatigorsk-page .place-map-meta a,
+body.city-evo-page .place-map-meta a {
+  width: max-content;
+  max-width: 100%;
+  min-height: 38px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  padding: 0 15px;
+  border-radius: 999px;
+  color: #05283a;
+  background: linear-gradient(135deg, #e4f5ff, #92d1ff);
+  border: 1px solid rgba(90, 169, 255, 0.32);
+  box-shadow:
+    0 14px 30px rgba(90, 169, 255, 0.16),
+    inset 0 1px 0 rgba(255, 255, 255, 0.84);
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 900;
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+body.pyatigorsk-page .place-map-meta a:hover,
+body.city-evo-page .place-map-meta a:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 18px 38px rgba(90, 169, 255, 0.24),
+    inset 0 1px 0 rgba(255, 255, 255, 0.92);
+}
+
+html[data-theme="night"] body.pyatigorsk-page .place-map-meta,
+html[data-theme="night"] body.city-evo-page .place-map-meta {
+  border-top-color: rgba(146, 209, 255, 0.20);
+}
+
+html[data-theme="night"] body.pyatigorsk-page .place-map-meta p,
+html[data-theme="night"] body.city-evo-page .place-map-meta p {
+  color: rgba(238, 247, 255, 0.74) !important;
+}
+
+html[data-theme="night"] body.pyatigorsk-page .place-map-meta span,
+html[data-theme="night"] body.city-evo-page .place-map-meta span {
+  color: #dff8ff !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border-color: rgba(146, 209, 255, 0.22) !important;
+}
+
+@media (max-width: 640px) {
+  body.pyatigorsk-page .place-map-meta p,
+  body.city-evo-page .place-map-meta p {
+    grid-template-columns: 1fr;
+    gap: 7px;
+  }
+}
