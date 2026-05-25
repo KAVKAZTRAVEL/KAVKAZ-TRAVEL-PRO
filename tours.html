@@ -58,7 +58,7 @@
     "inLanguage": "ru-RU"
   }
   </script>
-  <link rel="stylesheet" href="style.css?v=20260525-tours-panel-over-carousel">
+  <link rel="stylesheet" href="style.css?v=20260525-tours-paragliding-style">
 </head>
 <body class="reference-page tours-service-page">
   <header class="reference-header">
@@ -104,9 +104,7 @@
             <li>Аланский монастырь</li>
             <li>Арт-объекты</li>
           </ul>
-          <div class="tour-route-actions">
-            <button type="button" data-tour-more>Подробнее</button>
-            <a href="contacts.html">Забронировать</a>
+          <div class="tour-route-actions">            <a href="contacts.html">Забронировать</a>
           </div>
         </div>
         <aside class="tour-route-carousel" data-speed="0.72" aria-label="Фотографии горного маршрута по Северной Осетии">
@@ -139,9 +137,7 @@
             <li>Адыр-Су</li>
             <li>Поляна Нарзанов</li>
           </ul>
-          <div class="tour-route-actions">
-            <button type="button" data-tour-more>Подробнее</button>
-            <a href="contacts.html">Забронировать</a>
+          <div class="tour-route-actions">            <a href="contacts.html">Забронировать</a>
           </div>
         </div>
         <aside class="tour-route-carousel" data-speed="0.58" data-direction="reverse" aria-label="Фотографии тура на Эльбрус">
@@ -174,9 +170,7 @@
             <li>Цветочный парк</li>
             <li>Грозный-Сити</li>
           </ul>
-          <div class="tour-route-actions">
-            <button type="button" data-tour-more>Подробнее</button>
-            <a href="contacts.html">Забронировать</a>
+          <div class="tour-route-actions">            <a href="contacts.html">Забронировать</a>
           </div>
         </div>
         <aside class="tour-route-carousel" data-speed="0.66" aria-label="Фотографии городского тура по Чечне">
@@ -211,9 +205,7 @@
             <li>Храм Тхаба-Ерды</li>
             <li>Башенный комплекс Вовнушки</li>
           </ul>
-          <div class="tour-route-actions">
-            <button type="button" data-tour-more>Подробнее</button>
-            <a href="contacts.html">Забронировать</a>
+          <div class="tour-route-actions">            <a href="contacts.html">Забронировать</a>
           </div>
         </div>
         <aside class="tour-route-carousel" data-speed="0.62" data-direction="reverse" aria-label="Фотографии тура по Ингушетии">
@@ -247,9 +239,7 @@
             <li>Поляна Нарзанов</li>
             <li>Адыр-Су</li>
           </ul>
-          <div class="tour-route-actions">
-            <button type="button" data-tour-more>Подробнее</button>
-            <a href="contacts.html">Забронировать</a>
+          <div class="tour-route-actions">            <a href="contacts.html">Забронировать</a>
           </div>
         </div>
         <aside class="tour-route-carousel" data-speed="0.74" aria-label="Фотографии тура Чегет и ледник Семерка">
@@ -284,9 +274,7 @@
             <li>Башня Абиевых или Абай-Кала</li>
             <li>Термальные источники Гедуко или Аушигер</li>
           </ul>
-          <div class="tour-route-actions">
-            <button type="button" data-tour-more>Подробнее</button>
-            <a href="contacts.html">Забронировать</a>
+          <div class="tour-route-actions">            <a href="contacts.html">Забронировать</a>
           </div>
         </div>
         <aside class="tour-route-carousel" data-speed="0.6" data-direction="reverse" aria-label="Фотографии тура Верхняя Балкария">
@@ -321,9 +309,7 @@
             <li>Ущелье Харбас</li>
             <li>Водопады Каракая-Су, Султан-Су, Кызыл-Су</li>
           </ul>
-          <div class="tour-route-actions">
-            <button type="button" data-tour-more>Подробнее</button>
-            <a href="contacts.html">Забронировать</a>
+          <div class="tour-route-actions">            <a href="contacts.html">Забронировать</a>
           </div>
         </div>
         <aside class="tour-route-carousel" data-speed="0.7" aria-label="Фотографии тура Джилы-Су">
@@ -356,9 +342,7 @@
             <li>Озеро Кара-Кёль</li>
             <li>Домбай, канатная дорога</li>
           </ul>
-          <div class="tour-route-actions">
-            <button type="button" data-tour-more>Подробнее</button>
-            <a href="contacts.html">Забронировать</a>
+          <div class="tour-route-actions">            <a href="contacts.html">Забронировать</a>
           </div>
         </div>
         <aside class="tour-route-carousel" data-speed="0.52" data-direction="reverse" aria-label="Фотографии тура в Домбай">
@@ -376,17 +360,6 @@
       </article>
     </section>
   </main>
-
-  <dialog class="tour-service-modal" aria-labelledby="tour-modal-title">
-    <button class="tour-service-modal-close" type="button" data-tour-close aria-label="Закрыть">×</button>
-    <span class="tour-service-modal-kicker">Маршрут тура</span>
-    <h2 id="tour-modal-title"></h2>
-    <p class="tour-service-modal-summary" data-tour-summary></p>
-    <p class="tour-service-modal-price" data-tour-price></p>
-    <ul class="tour-service-modal-list" data-tour-locations></ul>
-    <a class="tour-service-modal-book" href="contacts.html">Забронировать</a>
-  </dialog>
-
   <footer class="site-bottom-header" aria-label="Контакты Kavkaz Travel">
     <div class="site-bottom-inner">
       <div class="bottom-contact bottom-mail">
@@ -405,40 +378,6 @@
 
   <script>
     (function () {
-      const modal = document.querySelector('.tour-service-modal');
-      const modalTitle = modal?.querySelector('#tour-modal-title');
-      const modalSummary = modal?.querySelector('[data-tour-summary]');
-      const modalPrice = modal?.querySelector('[data-tour-price]');
-      const modalLocations = modal?.querySelector('[data-tour-locations]');
-
-      document.querySelectorAll('[data-tour-more]').forEach((button) => {
-        button.addEventListener('click', () => {
-          const card = button.closest('[data-tour-card]');
-          if (!card || !modal) return;
-
-          modalTitle.textContent = card.querySelector('h2')?.textContent || '';
-          modalSummary.textContent = card.querySelector('.tour-route-summary')?.textContent || '';
-          modalPrice.textContent = card.querySelector('.tour-route-price')?.textContent || '';
-          modalLocations.innerHTML = Array.from(card.querySelectorAll('.tour-route-locations li'))
-            .map((item) => `<li>${item.textContent}</li>`)
-            .join('');
-
-          if (typeof modal.showModal === 'function') {
-            modal.showModal();
-          } else {
-            modal.setAttribute('open', '');
-          }
-        });
-      });
-
-      document.querySelector('[data-tour-close]')?.addEventListener('click', () => {
-        modal?.close();
-      });
-
-      modal?.addEventListener('click', (event) => {
-        if (event.target === modal) modal.close();
-      });
-
       document.querySelectorAll('.tour-route-photo-row').forEach((row) => {
         const originals = Array.from(row.children);
         originals.forEach((image) => {
