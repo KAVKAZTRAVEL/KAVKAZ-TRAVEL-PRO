@@ -20193,3 +20193,76 @@ body.tours-service-page .tour-route-card:nth-child(even) .tour-route-carousel {
     border-radius: 18px !important;
   }
 }
+
+/* Final tours equalize all route blocks to the selected reference */
+@media (min-width: 921px) {
+  body.tours-service-page .tour-route-card,
+  body.tours-service-page .tour-route-card:nth-child(even) {
+    grid-template-rows: 410px !important;
+    height: 410px !important;
+    min-height: 410px !important;
+    max-height: 410px !important;
+  }
+
+  body.tours-service-page .tour-route-media,
+  body.tours-service-page .tour-route-card:nth-child(even) .tour-route-media,
+  body.tours-service-page .tour-route-panel,
+  body.tours-service-page .tour-route-card:nth-child(even) .tour-route-panel,
+  body.tours-service-page .tour-route-carousel,
+  body.tours-service-page .tour-route-card:nth-child(even) .tour-route-carousel {
+    height: 410px !important;
+    min-height: 410px !important;
+    max-height: 410px !important;
+  }
+
+  body.tours-service-page .tour-route-media img {
+    height: 410px !important;
+    min-height: 410px !important;
+    max-height: 410px !important;
+  }
+
+  body.tours-service-page .tour-route-panel,
+  body.tours-service-page .tour-route-card:nth-child(even) .tour-route-panel {
+    align-content: center !important;
+    gap: 8px !important;
+    padding-top: 22px !important;
+    padding-bottom: 22px !important;
+    overflow: visible !important;
+  }
+
+  body.tours-service-page .tour-route-panel h2 {
+    font-size: clamp(24px, 1.75vw, 32px) !important;
+    line-height: 0.98 !important;
+  }
+
+  body.tours-service-page .tour-route-summary {
+    font-size: clamp(11.4px, 0.9vw, 14px) !important;
+    line-height: 1.22 !important;
+  }
+
+  body.tours-service-page .tour-route-panel > .tour-route-locations {
+    gap: 5px 9px !important;
+  }
+
+  body.tours-service-page .tour-route-locations li {
+    font-size: clamp(9px, 0.72vw, 11.5px) !important;
+    line-height: 1.03 !important;
+    padding-left: 13px !important;
+  }
+
+  body.tours-service-page .tour-route-panel > .tour-route-eyebrow {
+    padding: 7px 12px !important;
+    font-size: 9px !important;
+  }
+
+  body.tours-service-page .tour-route-price {
+    padding: 8px 14px !important;
+    font-size: 12px !important;
+  }
+
+  body.tours-service-page .tour-route-actions a {
+    min-height: 38px !important;
+    padding: 10px 24px !important;
+    font-size: 12.5px !important;
+  }
+}
