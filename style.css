@@ -20148,6 +20148,13 @@ body.tours-service-page .tour-route-photo-row img {
   display: block !important;
 }
 
+body.tours-service-page .tour-route-carousel,
+body.tours-service-page .tour-route-card:nth-child(even) .tour-route-carousel {
+  justify-content: flex-end !important;
+  padding-top: clamp(54px, 7vw, 112px) !important;
+  padding-bottom: 28px !important;
+}
+
 @keyframes tours-horizontal-carousel-flow {
   from {
     transform: translate3d(0, 0, 0);
